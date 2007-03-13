@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>keyEquivalent</key>
+	<string>^~M</string>
+	<key>name</key>
+	<string>Moose</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>\b(has)\b</string>
+			<key>name</key>
+			<string>support.type.attribute.moose</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(with)\b</string>
+			<key>name</key>
+			<string>support.function.role.moose</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>source.perl</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.perl.moose</string>
+	<key>uuid</key>
+	<string>09D0B47F-8CF4-498E-ABB0-CFDA07749A16</string>
+</dict>
+</plist>

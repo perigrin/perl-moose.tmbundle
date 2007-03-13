@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Moose</string>
+	<key>ordering</key>
+	<array>
+		<string>09D0B47F-8CF4-498E-ABB0-CFDA07749A16</string>
+		<string>01655046-2EF4-4629-8BEF-18FAAEDB5ADA</string>
+		<string>A8B31369-129E-4434-98B0-A2842E283995</string>
+		<string>B66E1E6A-C593-4B84-9519-ACD90A84679F</string>
+	</array>
+	<key>uuid</key>
+	<string>9B9C960E-D75D-4CEF-A3D2-BFEA907565BC</string>
+</dict>
+</plist>

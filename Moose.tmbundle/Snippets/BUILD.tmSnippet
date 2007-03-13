@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>sub BUILD {
+	my ( \$self, \$param ) = @_;
+	${1:# body...}
+}
+</string>
+	<key>name</key>
+	<string>BUILD</string>
+	<key>scope</key>
+	<string>source.perl.moose</string>
+	<key>tabTrigger</key>
+	<string>BUILD</string>
+	<key>uuid</key>
+	<string>A8B31369-129E-4434-98B0-A2842E283995</string>
+</dict>
+</plist>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>has ${1:property} =&gt; (
+	isa =&gt; '${2:Str}',
+	is  =&gt; '${3:ro}',	
+);</string>
+	<key>name</key>
+	<string>has</string>
+	<key>scope</key>
+	<string>source.perl.moose</string>
+	<key>tabTrigger</key>
+	<string>has</string>
+	<key>uuid</key>
+	<string>01655046-2EF4-4629-8BEF-18FAAEDB5ADA</string>
+</dict>
+</plist>
