@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>augment '${1:method_name}' =&gt; sub { ${2:# body...} }; </string>
+	<key>name</key>
+	<string>augment</string>
+	<key>scope</key>
+	<string>source.perl.moose</string>
+	<key>tabTrigger</key>
+	<string>augment</string>
+	<key>uuid</key>
+	<string>5135BB5F-C3DA-453E-806A-47390B95226B</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>before '${1:method_name}' =&gt; sub { ${2:# body...} }; </string>
+	<key>name</key>
+	<string>before</string>
+	<key>scope</key>
+	<string>source.perl.moose</string>
+	<key>tabTrigger</key>
+	<string>before</string>
+	<key>uuid</key>
+	<string>95A6BB0F-B46E-4ED0-B5AC-4CF4B047F6A0</string>
+</dict>
+</plist>
