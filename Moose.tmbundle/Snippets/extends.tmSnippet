@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>extends qw(${1:MyParent})</string>
+	<string>extends qw(${1:MyParent});</string>
 	<key>name</key>
 	<string>extends</string>
 	<key>scope</key>

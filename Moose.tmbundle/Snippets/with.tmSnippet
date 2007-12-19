@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>with qw(${1:MyRole})</string>
+	<string>with qw(${1:MyRole});</string>
 	<key>name</key>
 	<string>with</string>
 	<key>scope</key>
