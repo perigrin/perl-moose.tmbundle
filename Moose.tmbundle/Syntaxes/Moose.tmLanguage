@@ -12,13 +12,31 @@
 			<key>match</key>
 			<string>\b(has)\b</string>
 			<key>name</key>
-			<string>support.type.attribute.moose</string>
+			<string>keyword.attribute</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\b(with)\b</string>
 			<key>name</key>
-			<string>support.function.role.moose</string>
+			<string>keyword.role</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(type|subtype)\b</string>
+			<key>name</key>
+			<string>keyword.type</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(coerce)\b</string>
+			<key>name</key>
+			<string>keyword.type.coercion</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(extends)\b</string>
+			<key>name</key>
+			<string>keyword.extends</string>
 		</dict>
 		<dict>
 			<key>include</key>

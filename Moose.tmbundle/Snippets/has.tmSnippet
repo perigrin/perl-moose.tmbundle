@@ -6,6 +6,7 @@
 	<string>has ${1:property} =&gt; (
 	isa =&gt; '${2:Str}',
 	is  =&gt; '${3:ro}',	
+	${4:default =&gt;  sub { ${5:value} \}, }
 );</string>
 	<key>name</key>
 	<string>has</string>
