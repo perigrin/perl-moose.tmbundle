@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>requires '${1:my_method}';</string>
+	<key>name</key>
+	<string>Requires</string>
+	<key>scope</key>
+	<string>source.perl.moose</string>
+	<key>tabTrigger</key>
+	<string>requires</string>
+	<key>uuid</key>
+	<string>440F46B6-AAE0-4DA5-96B5-339126CADA04</string>
+</dict>
+</plist>

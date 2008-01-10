@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>sub ${1:function_name} {
+	my \$self = shift;
+	${2:# body...}
+}
+</string>
+	<key>name</key>
+	<string>Method</string>
+	<key>scope</key>
+	<string>source.perl.moose</string>
+	<key>tabTrigger</key>
+	<string>meth</string>
+	<key>uuid</key>
+	<string>FDA7FA2C-2BD0-438C-9224-A1867A3A363F</string>
+</dict>
+</plist>

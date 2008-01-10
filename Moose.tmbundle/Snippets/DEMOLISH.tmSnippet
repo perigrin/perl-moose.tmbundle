@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>sub DEMOLISH {
+	my \$self = shift;
+	${1:# body...}
+}
+</string>
+	<key>name</key>
+	<string>DEMOLISH</string>
+	<key>tabTrigger</key>
+	<string>DEMOLISH</string>
+	<key>uuid</key>
+	<string>55F400AB-7C31-4477-9331-F5B17C43A7EB</string>
+</dict>
+</plist>

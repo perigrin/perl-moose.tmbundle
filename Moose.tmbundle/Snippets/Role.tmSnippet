@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>package ${1:RoleName};
+use Moose::Role;
+
+no Moose::Role; 
+1;
+</string>
+	<key>name</key>
+	<string>Role</string>
+	<key>scope</key>
+	<string>source.perl</string>
+	<key>tabTrigger</key>
+	<string>role</string>
+	<key>uuid</key>
+	<string>90362A37-0C85-4A10-9542-D04F50B2DBB7</string>
+</dict>
+</plist>
