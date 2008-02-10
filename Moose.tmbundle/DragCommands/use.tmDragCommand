@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/perl -w
+
+use strict;
+
+my $module_name = $ENV{TM_DROPPED_FILEPATH};
+
+$module_name =~ s/\.pm//;
+
+my @path = grep { !/\.\./ } split '/' =&gt; $module_name;
+
+do {
+	shift @path;
+} until ($path[0] eq 'lib');
+
+shift @path;
+
+$module_name = join '::' =&gt; @path;
+
+my $use_statement = 
+	$ENV{TM_MODIFIER_FLAGS} =~ /OPTION/
+		? "use_ok('$module_name');"	
+		: "use $module_name;";
+
+if ($ENV{TM_MODIFIER_FLAGS} =~ /COMMAND/) {
+	if ($ENV{TM_CURRENT_LINE} =~ /^\s*$/) {
+		$use_statement = "$use_statement\n";
+	}
+ 	$use_statement = "\n$use_statement";
+}
+
+print "$use_statement";
+
+#print join "\n" =&gt; 
+#	map { "$_ =&gt; $ENV{$_}" }
+#	grep { /^TM_/ }
+#	keys %ENV;</string>
+	<key>draggedFileExtensions</key>
+	<array>
+		<string>pm</string>
+	</array>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>use</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.perl.moose</string>
+	<key>uuid</key>
+	<string>AB4BFB75-C6F3-499E-BF02-4FA8B466A5CC</string>
+</dict>
+</plist>
