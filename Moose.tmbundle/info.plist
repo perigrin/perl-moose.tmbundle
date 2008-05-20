@@ -2,35 +2,23 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>changed</key>
-	<dict>
-		<key>ordering</key>
-		<array>
-			<string>09D0B47F-8CF4-498E-ABB0-CFDA07749A16</string>
-			<string>A8B31369-129E-4434-98B0-A2842E283995</string>
-			<string>55F400AB-7C31-4477-9331-F5B17C43A7EB</string>
-			<string>01655046-2EF4-4629-8BEF-18FAAEDB5ADA</string>
-			<string>B66E1E6A-C593-4B84-9519-ACD90A84679F</string>
-			<string>FE31C261-480F-4E87-86AD-E9E1D2A76DA1</string>
-			<string>88C17DEE-2F55-4793-ABDB-BB311F8F2404</string>
-			<string>95A6BB0F-B46E-4ED0-B5AC-4CF4B047F6A0</string>
-			<string>D13FA99A-93ED-4326-9300-CC103426CAE9</string>
-			<string>790DEF12-4956-4A08-96C0-261EDA93FDE4</string>
-			<string>5135BB5F-C3DA-453E-806A-47390B95226B</string>
-			<string>912327D9-A5D7-4575-B9C4-79233E3C6244</string>
-			<string>9400BEE4-8742-480A-9F5F-9E92D5D38D25</string>
-			<string>96B00D6A-7982-4052-BF3A-01546BBEA95F</string>
-			<string>FDA7FA2C-2BD0-438C-9224-A1867A3A363F</string>
-			<string>440F46B6-AAE0-4DA5-96B5-339126CADA04</string>
-			<string>90362A37-0C85-4A10-9542-D04F50B2DBB7</string>
-			<string>EC6571E9-46CB-4185-9C85-6BC956743681</string>
-			<string>AB4BFB75-C6F3-499E-BF02-4FA8B466A5CC</string>
-		</array>
-	</dict>
-	<key>deleted</key>
-	<array/>
-	<key>isDelta</key>
-	<true/>
+	<key>name</key>
+	<string>Moose</string>
+	<key>ordering</key>
+	<array>
+		<string>09D0B47F-8CF4-498E-ABB0-CFDA07749A16</string>
+		<string>A8B31369-129E-4434-98B0-A2842E283995</string>
+		<string>01655046-2EF4-4629-8BEF-18FAAEDB5ADA</string>
+		<string>B66E1E6A-C593-4B84-9519-ACD90A84679F</string>
+		<string>FE31C261-480F-4E87-86AD-E9E1D2A76DA1</string>
+		<string>88C17DEE-2F55-4793-ABDB-BB311F8F2404</string>
+		<string>95A6BB0F-B46E-4ED0-B5AC-4CF4B047F6A0</string>
+		<string>D13FA99A-93ED-4326-9300-CC103426CAE9</string>
+		<string>790DEF12-4956-4A08-96C0-261EDA93FDE4</string>
+		<string>5135BB5F-C3DA-453E-806A-47390B95226B</string>
+		<string>912327D9-A5D7-4575-B9C4-79233E3C6244</string>
+		<string>96B00D6A-7982-4052-BF3A-01546BBEA95F</string>
+	</array>
 	<key>uuid</key>
 	<string>9B9C960E-D75D-4CEF-A3D2-BFEA907565BC</string>
 </dict>
