@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+{
+    package ${1:ClassName};
+    use Moose;
+    
+    with 'MooseX::Getopt';
+    
+    sub run {
+        
+    }
+}
+
+$1-&gt;new_with_options-&gt;run;
+</string>
+	<key>name</key>
+	<string>Script</string>
+	<key>scope</key>
+	<string>source.perl.moose</string>
+	<key>tabTrigger</key>
+	<string>script</string>
+	<key>uuid</key>
+	<string>A0599000-CB5E-4065-8A74-95E42434FD16</string>
+</dict>
+</plist>
