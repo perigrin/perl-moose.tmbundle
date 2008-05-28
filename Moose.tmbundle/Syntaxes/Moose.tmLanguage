@@ -22,9 +22,39 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(type|subtype)\b</string>
+			<string>\b(extends)\b</string>
+			<key>name</key>
+			<string>keyword.extends</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(before|around|after)\b</string>
+			<key>name</key>
+			<string>keyword.method.modifiers</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(override|super)\b</string>
+			<key>name</key>
+			<string>keyword.method.override</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(augment|inner)\b</string>
+			<key>name</key>
+			<string>keyword.method.augment</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(type|subtype|enum|class_type)\b</string>
 			<key>name</key>
 			<string>keyword.type</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(as|where)\b</string>
+			<key>name</key>
+			<string>keyword.type.modifiers</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -34,9 +64,21 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(extends)\b</string>
+			<string>\b(via|from)\b</string>
 			<key>name</key>
-			<string>keyword.extends</string>
+			<string>keyword.type.coercion.modifiers</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(requires)\b</string>
+			<key>name</key>
+			<string>keyword.role.requires</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(excludes)\b</string>
+			<key>name</key>
+			<string>keyword.role.excludes</string>
 		</dict>
 		<dict>
 			<key>include</key>
