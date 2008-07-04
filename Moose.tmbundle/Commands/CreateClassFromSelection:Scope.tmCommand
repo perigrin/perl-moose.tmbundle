@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env perl 
+use strict;
+my $package = do{ local $/=undef; &lt;&gt; } || $ENV{'TM_SELECTED_TEXT'};
+
+print qq[package $package;
+use Moose;
+
+
+no Moose;
+1;
+__END__
+];
+</string>
+	<key>fallbackInput</key>
+	<string>scope</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>^N</string>
+	<key>name</key>
+	<string>CreateClassFromSelection/Scope</string>
+	<key>output</key>
+	<string>openAsNewDocument</string>
+	<key>scope</key>
+	<string>source.perl.moose string.quoted</string>
+	<key>uuid</key>
+	<string>3EBE3681-508A-4B29-8C14-9C459FD56555</string>
+</dict>
+</plist>
