@@ -3,14 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>has ${1:property} =&gt; (	isa =&gt; '${2:Str}',	is  =&gt; '${3:ro}', );</string>
+	<string>has ${1:property} =&gt; (
+	isa =&gt; '${2:Str}',
+	is  =&gt; '${3:ro}',	
+	lazy_build =&gt; 1,
+);
+
+sub _build_${1:property} {
+	my ($self) = @_;
+
+	${4:#body}
+}</string>
 	<key>name</key>
-	<string>has</string>
+	<string>has_lazy_build</string>
 	<key>scope</key>
 	<string>source.perl.moose</string>
 	<key>tabTrigger</key>
-	<string>has</string>
+	<string>hasl</string>
 	<key>uuid</key>
-	<string>01655046-2EF4-4629-8BEF-18FAAEDB5ADA</string>
+	<string>18F10F44-7561-4677-910C-4E48FAD46061</string>
 </dict>
 </plist>
