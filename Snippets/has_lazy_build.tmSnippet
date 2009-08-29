@@ -10,7 +10,7 @@
 );
 
 sub _build_${1:property} {
-	my ($self) = @_;
+	my (\$self) = @_;
 
 	${4:#body}
 }</string>
